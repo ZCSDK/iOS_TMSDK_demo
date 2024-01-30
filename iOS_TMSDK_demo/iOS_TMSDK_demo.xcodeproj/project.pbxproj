@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6FAF032B688C7D00CD01CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF022B688C7D00CD01CD /* AppDelegate.m */; };
+		7B6FAF062B688C7D00CD01CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF052B688C7D00CD01CD /* SceneDelegate.m */; };
+		7B6FAF092B688C7D00CD01CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF082B688C7D00CD01CD /* ViewController.m */; };
+		7B6FAF0C2B688C7D00CD01CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF0A2B688C7D00CD01CD /* Main.storyboard */; };
+		7B6FAF0E2B688C7F00CD01CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF0D2B688C7F00CD01CD /* Assets.xcassets */; };
+		7B6FAF112B688C7F00CD01CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF0F2B688C7F00CD01CD /* LaunchScreen.storyboard */; };
+		7B6FAF142B688C7F00CD01CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF132B688C7F00CD01CD /* main.m */; };
+		7B6FAF4F2B688CD100CD01CD /* root_menu2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF1B2B688CCD00CD01CD /* root_menu2@3x.png */; };
+		7B6FAF502B688CD100CD01CD /* root_menu2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF1C2B688CCD00CD01CD /* root_menu2@2x.png */; };
+		7B6FAF512B688CD100CD01CD /* root_menu4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF1D2B688CCD00CD01CD /* root_menu4@3x.png */; };
+		7B6FAF522B688CD100CD01CD /* root_menu4_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF1E2B688CCD00CD01CD /* root_menu4_nor@2x.png */; };
+		7B6FAF532B688CD100CD01CD /* root_menu4_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF1F2B688CCD00CD01CD /* root_menu4_nor@3x.png */; };
+		7B6FAF542B688CD100CD01CD /* root_menu4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF202B688CCD00CD01CD /* root_menu4@2x.png */; };
+		7B6FAF552B688CD100CD01CD /* root_menu2_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF212B688CCD00CD01CD /* root_menu2_nor@2x.png */; };
+		7B6FAF562B688CD100CD01CD /* root_menu2_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF222B688CCD00CD01CD /* root_menu2_nor@3x.png */; };
+		7B6FAF572B688CD100CD01CD /* ZCIcon_look_moreBtn_nol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF232B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@3x.png */; };
+		7B6FAF582B688CD100CD01CD /* ZCIcon_look_moreBtn_nol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF242B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@2x.png */; };
+		7B6FAF592B688CD100CD01CD /* ApiWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF262B688CCE00CD01CD /* ApiWebController.m */; };
+		7B6FAF5A2B688CD100CD01CD /* ZCGuideData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF282B688CCE00CD01CD /* ZCGuideData.m */; };
+		7B6FAF5B2B688CD100CD01CD /* SobotCallApiParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF292B688CCE00CD01CD /* SobotCallApiParameter.m */; };
+		7B6FAF5C2B688CD100CD01CD /* ZCSectionPropertyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF2E2B688CCE00CD01CD /* ZCSectionPropertyCell.m */; };
+		7B6FAF5D2B688CD100CD01CD /* ZCConfigBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF2F2B688CCE00CD01CD /* ZCConfigBaseCell.m */; };
+		7B6FAF5E2B688CD100CD01CD /* ZCConfigCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF302B688CCE00CD01CD /* ZCConfigCodeCell.m */; };
+		7B6FAF5F2B688CD100CD01CD /* OpenApiListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF352B688CCE00CD01CD /* OpenApiListController.m */; };
+		7B6FAF602B688CD100CD01CD /* ZCConfigDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF372B688CCE00CD01CD /* ZCConfigDetailController.m */; };
+		7B6FAF612B688CD100CD01CD /* EntityConvertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF382B688CCE00CD01CD /* EntityConvertUtils.m */; };
+		7B6FAF622B688CD100CD01CD /* ZCGuideActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF3A2B688CCE00CD01CD /* ZCGuideActionController.m */; };
+		7B6FAF652B688CD100CD01CD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF3F2B688CD000CD01CD /* LoginViewController.m */; };
+		7B6FAF662B688CD100CD01CD /* RootDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF402B688CD000CD01CD /* RootDemoController.m */; };
+		7B6FAF7B2B688D4000CD01CD /* SobotTelemarketingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF752B688D4000CD01CD /* SobotTelemarketingSDK.framework */; };
+		7B6FAF7C2B688D4100CD01CD /* SobotCall.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF762B688D4000CD01CD /* SobotCall.bundle */; };
+		7B6FAF7D2B688D4100CD01CD /* SobotCallLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF772B688D4000CD01CD /* SobotCallLib.framework */; };
+		7B6FAF7E2B688D4200CD01CD /* SobotCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF782B688D4000CD01CD /* SobotCommon.framework */; };
+		7B6FAF7F2B688D4300CD01CD /* SobotCommon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FAF792B688D4000CD01CD /* SobotCommon.bundle */; };
+		7B6FAF802B688D4300CD01CD /* SobotCallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF7A2B688D4000CD01CD /* SobotCallSDK.framework */; };
+		7B6FAF862B688E3F00CD01CD /* ZCConfigTMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF822B688E3F00CD01CD /* ZCConfigTMDetailController.m */; };
+		7B6FAF872B688E3F00CD01CD /* ZCGuideTMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FAF832B688E3F00CD01CD /* ZCGuideTMActionController.m */; };
+		7B6FAF882B688E7F00CD01CD /* bctoolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF452B688CD100CD01CD /* bctoolbox.framework */; };
+		7B6FAF892B688E8000CD01CD /* bctoolbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF452B688CD100CD01CD /* bctoolbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF8B2B688E8300CD01CD /* belcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4C2B688CD100CD01CD /* belcard.framework */; };
+		7B6FAF8C2B688E8300CD01CD /* belcard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4C2B688CD100CD01CD /* belcard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF8D2B688E8700CD01CD /* belr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF422B688CD100CD01CD /* belr.framework */; };
+		7B6FAF8E2B688E8800CD01CD /* belr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF422B688CD100CD01CD /* belr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF8F2B688E8B00CD01CD /* linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4E2B688CD100CD01CD /* linphone.framework */; };
+		7B6FAF902B688E8C00CD01CD /* linphone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4E2B688CD100CD01CD /* linphone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF912B688E9000CD01CD /* linphonetester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF482B688CD100CD01CD /* linphonetester.framework */; };
+		7B6FAF922B688E9100CD01CD /* linphonetester.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF482B688CD100CD01CD /* linphonetester.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF932B688E9400CD01CD /* mediastreamer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF432B688CD100CD01CD /* mediastreamer2.framework */; };
+		7B6FAF942B688E9500CD01CD /* mediastreamer2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF432B688CD100CD01CD /* mediastreamer2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF952B688E9900CD01CD /* msamr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF472B688CD100CD01CD /* msamr.framework */; };
+		7B6FAF962B688E9A00CD01CD /* msamr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF472B688CD100CD01CD /* msamr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF972B688E9E00CD01CD /* mscodec2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4A2B688CD100CD01CD /* mscodec2.framework */; };
+		7B6FAF982B688E9F00CD01CD /* mscodec2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4A2B688CD100CD01CD /* mscodec2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF992B688EA300CD01CD /* msopenh264.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF442B688CD100CD01CD /* msopenh264.framework */; };
+		7B6FAF9A2B688EA400CD01CD /* msopenh264.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF442B688CD100CD01CD /* msopenh264.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF9B2B688EA900CD01CD /* mssilk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4B2B688CD100CD01CD /* mssilk.framework */; };
+		7B6FAF9C2B688EAA00CD01CD /* mssilk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4B2B688CD100CD01CD /* mssilk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF9D2B688EAE00CD01CD /* mswebrtc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF462B688CD100CD01CD /* mswebrtc.framework */; };
+		7B6FAF9E2B688EAF00CD01CD /* mswebrtc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF462B688CD100CD01CD /* mswebrtc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAF9F2B688EB300CD01CD /* msx264.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4D2B688CD100CD01CD /* msx264.framework */; };
+		7B6FAFA02B688EB400CD01CD /* msx264.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF4D2B688CD100CD01CD /* msx264.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAFA12B688EB800CD01CD /* ortp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF492B688CD100CD01CD /* ortp.framework */; };
+		7B6FAFA22B688EB900CD01CD /* ortp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAF492B688CD100CD01CD /* ortp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B6FAFA72B6891BD00CD01CD /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAFA52B6890C100CD01CD /* WebRTC.framework */; };
+		7B6FAFA82B6891BE00CD01CD /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FAFA52B6890C100CD01CD /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B6FAF8A2B688E8000CD01CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B6FAF8C2B688E8300CD01CD /* belcard.framework in Embed Frameworks */,
+				7B6FAF9C2B688EAA00CD01CD /* mssilk.framework in Embed Frameworks */,
+				7B6FAF8E2B688E8800CD01CD /* belr.framework in Embed Frameworks */,
+				7B6FAFA82B6891BE00CD01CD /* WebRTC.framework in Embed Frameworks */,
+				7B6FAF892B688E8000CD01CD /* bctoolbox.framework in Embed Frameworks */,
+				7B6FAFA02B688EB400CD01CD /* msx264.framework in Embed Frameworks */,
+				7B6FAF942B688E9500CD01CD /* mediastreamer2.framework in Embed Frameworks */,
+				7B6FAF922B688E9100CD01CD /* linphonetester.framework in Embed Frameworks */,
+				7B6FAF9E2B688EAF00CD01CD /* mswebrtc.framework in Embed Frameworks */,
+				7B6FAF902B688E8C00CD01CD /* linphone.framework in Embed Frameworks */,
+				7B6FAFA22B688EB900CD01CD /* ortp.framework in Embed Frameworks */,
+				7B6FAF9A2B688EA400CD01CD /* msopenh264.framework in Embed Frameworks */,
+				7B6FAF982B688E9F00CD01CD /* mscodec2.framework in Embed Frameworks */,
+				7B6FAF962B688E9A00CD01CD /* msamr.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B6FAEFE2B688C7D00CD01CD /* iOS_TMSDK_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_TMSDK_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FAF012B688C7D00CD01CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6FAF022B688C7D00CD01CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6FAF042B688C7D00CD01CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7B6FAF052B688C7D00CD01CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7B6FAF072B688C7D00CD01CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B6FAF082B688C7D00CD01CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B6FAF0B2B688C7D00CD01CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B6FAF0D2B688C7F00CD01CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6FAF102B688C7F00CD01CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6FAF122B688C7F00CD01CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6FAF132B688C7F00CD01CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6FAF1B2B688CCD00CD01CD /* root_menu2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2@3x.png"; sourceTree = "<group>"; };
+		7B6FAF1C2B688CCD00CD01CD /* root_menu2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2@2x.png"; sourceTree = "<group>"; };
+		7B6FAF1D2B688CCD00CD01CD /* root_menu4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4@3x.png"; sourceTree = "<group>"; };
+		7B6FAF1E2B688CCD00CD01CD /* root_menu4_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4_nor@2x.png"; sourceTree = "<group>"; };
+		7B6FAF1F2B688CCD00CD01CD /* root_menu4_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4_nor@3x.png"; sourceTree = "<group>"; };
+		7B6FAF202B688CCD00CD01CD /* root_menu4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu4@2x.png"; sourceTree = "<group>"; };
+		7B6FAF212B688CCD00CD01CD /* root_menu2_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2_nor@2x.png"; sourceTree = "<group>"; };
+		7B6FAF222B688CCD00CD01CD /* root_menu2_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "root_menu2_nor@3x.png"; sourceTree = "<group>"; };
+		7B6FAF232B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZCIcon_look_moreBtn_nol@3x.png"; sourceTree = "<group>"; };
+		7B6FAF242B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZCIcon_look_moreBtn_nol@2x.png"; sourceTree = "<group>"; };
+		7B6FAF262B688CCE00CD01CD /* ApiWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiWebController.m; sourceTree = "<group>"; };
+		7B6FAF272B688CCE00CD01CD /* OpenApiListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenApiListController.h; sourceTree = "<group>"; };
+		7B6FAF282B688CCE00CD01CD /* ZCGuideData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGuideData.m; sourceTree = "<group>"; };
+		7B6FAF292B688CCE00CD01CD /* SobotCallApiParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobotCallApiParameter.m; sourceTree = "<group>"; };
+		7B6FAF2A2B688CCE00CD01CD /* EntityConvertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityConvertUtils.h; sourceTree = "<group>"; };
+		7B6FAF2B2B688CCE00CD01CD /* ZCConfigDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCConfigDetailController.h; sourceTree = "<group>"; };
+		7B6FAF2C2B688CCE00CD01CD /* ZCGuideActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGuideActionController.h; sourceTree = "<group>"; };
+		7B6FAF2E2B688CCE00CD01CD /* ZCSectionPropertyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSectionPropertyCell.m; sourceTree = "<group>"; };
+		7B6FAF2F2B688CCE00CD01CD /* ZCConfigBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCConfigBaseCell.m; sourceTree = "<group>"; };
+		7B6FAF302B688CCE00CD01CD /* ZCConfigCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCConfigCodeCell.m; sourceTree = "<group>"; };
+		7B6FAF312B688CCE00CD01CD /* ZCConfigBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCConfigBaseCell.h; sourceTree = "<group>"; };
+		7B6FAF322B688CCE00CD01CD /* ZCSectionPropertyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSectionPropertyCell.h; sourceTree = "<group>"; };
+		7B6FAF332B688CCE00CD01CD /* ZCConfigCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCConfigCodeCell.h; sourceTree = "<group>"; };
+		7B6FAF342B688CCE00CD01CD /* ApiWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiWebController.h; sourceTree = "<group>"; };
+		7B6FAF352B688CCE00CD01CD /* OpenApiListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenApiListController.m; sourceTree = "<group>"; };
+		7B6FAF362B688CCE00CD01CD /* ZCGuideData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGuideData.h; sourceTree = "<group>"; };
+		7B6FAF372B688CCE00CD01CD /* ZCConfigDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCConfigDetailController.m; sourceTree = "<group>"; };
+		7B6FAF382B688CCE00CD01CD /* EntityConvertUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityConvertUtils.m; sourceTree = "<group>"; };
+		7B6FAF392B688CCE00CD01CD /* SobotCallApiParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobotCallApiParameter.h; sourceTree = "<group>"; };
+		7B6FAF3A2B688CCE00CD01CD /* ZCGuideActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGuideActionController.m; sourceTree = "<group>"; };
+		7B6FAF3D2B688CCF00CD01CD /* RootDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootDemoController.h; sourceTree = "<group>"; };
+		7B6FAF3E2B688CD000CD01CD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7B6FAF3F2B688CD000CD01CD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7B6FAF402B688CD000CD01CD /* RootDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootDemoController.m; sourceTree = "<group>"; };
+		7B6FAF422B688CD100CD01CD /* belr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = belr.framework; sourceTree = "<group>"; };
+		7B6FAF432B688CD100CD01CD /* mediastreamer2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mediastreamer2.framework; sourceTree = "<group>"; };
+		7B6FAF442B688CD100CD01CD /* msopenh264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msopenh264.framework; sourceTree = "<group>"; };
+		7B6FAF452B688CD100CD01CD /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bctoolbox.framework; sourceTree = "<group>"; };
+		7B6FAF462B688CD100CD01CD /* mswebrtc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mswebrtc.framework; sourceTree = "<group>"; };
+		7B6FAF472B688CD100CD01CD /* msamr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msamr.framework; sourceTree = "<group>"; };
+		7B6FAF482B688CD100CD01CD /* linphonetester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = linphonetester.framework; sourceTree = "<group>"; };
+		7B6FAF492B688CD100CD01CD /* ortp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ortp.framework; sourceTree = "<group>"; };
+		7B6FAF4A2B688CD100CD01CD /* mscodec2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mscodec2.framework; sourceTree = "<group>"; };
+		7B6FAF4B2B688CD100CD01CD /* mssilk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mssilk.framework; sourceTree = "<group>"; };
+		7B6FAF4C2B688CD100CD01CD /* belcard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = belcard.framework; sourceTree = "<group>"; };
+		7B6FAF4D2B688CD100CD01CD /* msx264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = msx264.framework; sourceTree = "<group>"; };
+		7B6FAF4E2B688CD100CD01CD /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = linphone.framework; sourceTree = "<group>"; };
+		7B6FAF752B688D4000CD01CD /* SobotTelemarketingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotTelemarketingSDK.framework; sourceTree = "<group>"; };
+		7B6FAF762B688D4000CD01CD /* SobotCall.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SobotCall.bundle; sourceTree = "<group>"; };
+		7B6FAF772B688D4000CD01CD /* SobotCallLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotCallLib.framework; sourceTree = "<group>"; };
+		7B6FAF782B688D4000CD01CD /* SobotCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotCommon.framework; sourceTree = "<group>"; };
+		7B6FAF792B688D4000CD01CD /* SobotCommon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SobotCommon.bundle; sourceTree = "<group>"; };
+		7B6FAF7A2B688D4000CD01CD /* SobotCallSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SobotCallSDK.framework; sourceTree = "<group>"; };
+		7B6FAF822B688E3F00CD01CD /* ZCConfigTMDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCConfigTMDetailController.m; sourceTree = "<group>"; };
+		7B6FAF832B688E3F00CD01CD /* ZCGuideTMActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGuideTMActionController.m; sourceTree = "<group>"; };
+		7B6FAF842B688E3F00CD01CD /* ZCConfigTMDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCConfigTMDetailController.h; sourceTree = "<group>"; };
+		7B6FAF852B688E3F00CD01CD /* ZCGuideTMActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGuideTMActionController.h; sourceTree = "<group>"; };
+		7B6FAFA52B6890C100CD01CD /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6FAEFB2B688C7D00CD01CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FAF8B2B688E8300CD01CD /* belcard.framework in Frameworks */,
+				7B6FAF8D2B688E8700CD01CD /* belr.framework in Frameworks */,
+				7B6FAF802B688D4300CD01CD /* SobotCallSDK.framework in Frameworks */,
+				7B6FAF9B2B688EA900CD01CD /* mssilk.framework in Frameworks */,
+				7B6FAF952B688E9900CD01CD /* msamr.framework in Frameworks */,
+				7B6FAFA72B6891BD00CD01CD /* WebRTC.framework in Frameworks */,
+				7B6FAF992B688EA300CD01CD /* msopenh264.framework in Frameworks */,
+				7B6FAF9D2B688EAE00CD01CD /* mswebrtc.framework in Frameworks */,
+				7B6FAF912B688E9000CD01CD /* linphonetester.framework in Frameworks */,
+				7B6FAF7B2B688D4000CD01CD /* SobotTelemarketingSDK.framework in Frameworks */,
+				7B6FAF8F2B688E8B00CD01CD /* linphone.framework in Frameworks */,
+				7B6FAF972B688E9E00CD01CD /* mscodec2.framework in Frameworks */,
+				7B6FAFA12B688EB800CD01CD /* ortp.framework in Frameworks */,
+				7B6FAF932B688E9400CD01CD /* mediastreamer2.framework in Frameworks */,
+				7B6FAF882B688E7F00CD01CD /* bctoolbox.framework in Frameworks */,
+				7B6FAF7D2B688D4100CD01CD /* SobotCallLib.framework in Frameworks */,
+				7B6FAF9F2B688EB300CD01CD /* msx264.framework in Frameworks */,
+				7B6FAF7E2B688D4200CD01CD /* SobotCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6FAEF52B688C7D00CD01CD = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF002B688C7D00CD01CD /* iOS_TMSDK_demo */,
+				7B6FAEFF2B688C7D00CD01CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6FAEFF2B688C7D00CD01CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAEFE2B688C7D00CD01CD /* iOS_TMSDK_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6FAF002B688C7D00CD01CD /* iOS_TMSDK_demo */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF812B688E3F00CD01CD /* tmapi */,
+				7B6FAF742B688D4000CD01CD /* SDK */,
+				7B6FAF252B688CCE00CD01CD /* apipage */,
+				7B6FAF412B688CD100CD01CD /* Frameworks */,
+				7B6FAF1A2B688CCD00CD01CD /* images */,
+				7B6FAF3E2B688CD000CD01CD /* LoginViewController.h */,
+				7B6FAF3F2B688CD000CD01CD /* LoginViewController.m */,
+				7B6FAF3D2B688CCF00CD01CD /* RootDemoController.h */,
+				7B6FAF402B688CD000CD01CD /* RootDemoController.m */,
+				7B6FAF012B688C7D00CD01CD /* AppDelegate.h */,
+				7B6FAF022B688C7D00CD01CD /* AppDelegate.m */,
+				7B6FAF042B688C7D00CD01CD /* SceneDelegate.h */,
+				7B6FAF052B688C7D00CD01CD /* SceneDelegate.m */,
+				7B6FAF072B688C7D00CD01CD /* ViewController.h */,
+				7B6FAF082B688C7D00CD01CD /* ViewController.m */,
+				7B6FAF0A2B688C7D00CD01CD /* Main.storyboard */,
+				7B6FAF0D2B688C7F00CD01CD /* Assets.xcassets */,
+				7B6FAF0F2B688C7F00CD01CD /* LaunchScreen.storyboard */,
+				7B6FAF122B688C7F00CD01CD /* Info.plist */,
+				7B6FAF132B688C7F00CD01CD /* main.m */,
+			);
+			path = iOS_TMSDK_demo;
+			sourceTree = "<group>";
+		};
+		7B6FAF1A2B688CCD00CD01CD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF1B2B688CCD00CD01CD /* root_menu2@3x.png */,
+				7B6FAF1C2B688CCD00CD01CD /* root_menu2@2x.png */,
+				7B6FAF1D2B688CCD00CD01CD /* root_menu4@3x.png */,
+				7B6FAF1E2B688CCD00CD01CD /* root_menu4_nor@2x.png */,
+				7B6FAF1F2B688CCD00CD01CD /* root_menu4_nor@3x.png */,
+				7B6FAF202B688CCD00CD01CD /* root_menu4@2x.png */,
+				7B6FAF212B688CCD00CD01CD /* root_menu2_nor@2x.png */,
+				7B6FAF222B688CCD00CD01CD /* root_menu2_nor@3x.png */,
+				7B6FAF232B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@3x.png */,
+				7B6FAF242B688CCE00CD01CD /* ZCIcon_look_moreBtn_nol@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7B6FAF252B688CCE00CD01CD /* apipage */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF342B688CCE00CD01CD /* ApiWebController.h */,
+				7B6FAF262B688CCE00CD01CD /* ApiWebController.m */,
+				7B6FAF2D2B688CCE00CD01CD /* cell */,
+				7B6FAF2A2B688CCE00CD01CD /* EntityConvertUtils.h */,
+				7B6FAF382B688CCE00CD01CD /* EntityConvertUtils.m */,
+				7B6FAF272B688CCE00CD01CD /* OpenApiListController.h */,
+				7B6FAF352B688CCE00CD01CD /* OpenApiListController.m */,
+				7B6FAF392B688CCE00CD01CD /* SobotCallApiParameter.h */,
+				7B6FAF292B688CCE00CD01CD /* SobotCallApiParameter.m */,
+				7B6FAF2B2B688CCE00CD01CD /* ZCConfigDetailController.h */,
+				7B6FAF372B688CCE00CD01CD /* ZCConfigDetailController.m */,
+				7B6FAF2C2B688CCE00CD01CD /* ZCGuideActionController.h */,
+				7B6FAF3A2B688CCE00CD01CD /* ZCGuideActionController.m */,
+				7B6FAF362B688CCE00CD01CD /* ZCGuideData.h */,
+				7B6FAF282B688CCE00CD01CD /* ZCGuideData.m */,
+			);
+			path = apipage;
+			sourceTree = "<group>";
+		};
+		7B6FAF2D2B688CCE00CD01CD /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF2E2B688CCE00CD01CD /* ZCSectionPropertyCell.m */,
+				7B6FAF2F2B688CCE00CD01CD /* ZCConfigBaseCell.m */,
+				7B6FAF302B688CCE00CD01CD /* ZCConfigCodeCell.m */,
+				7B6FAF312B688CCE00CD01CD /* ZCConfigBaseCell.h */,
+				7B6FAF322B688CCE00CD01CD /* ZCSectionPropertyCell.h */,
+				7B6FAF332B688CCE00CD01CD /* ZCConfigCodeCell.h */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		7B6FAF412B688CD100CD01CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF422B688CD100CD01CD /* belr.framework */,
+				7B6FAF432B688CD100CD01CD /* mediastreamer2.framework */,
+				7B6FAF442B688CD100CD01CD /* msopenh264.framework */,
+				7B6FAF452B688CD100CD01CD /* bctoolbox.framework */,
+				7B6FAF462B688CD100CD01CD /* mswebrtc.framework */,
+				7B6FAF472B688CD100CD01CD /* msamr.framework */,
+				7B6FAF482B688CD100CD01CD /* linphonetester.framework */,
+				7B6FAF492B688CD100CD01CD /* ortp.framework */,
+				7B6FAF4A2B688CD100CD01CD /* mscodec2.framework */,
+				7B6FAF4B2B688CD100CD01CD /* mssilk.framework */,
+				7B6FAF4C2B688CD100CD01CD /* belcard.framework */,
+				7B6FAF4D2B688CD100CD01CD /* msx264.framework */,
+				7B6FAF4E2B688CD100CD01CD /* linphone.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6FAF742B688D4000CD01CD /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAFA52B6890C100CD01CD /* WebRTC.framework */,
+				7B6FAF752B688D4000CD01CD /* SobotTelemarketingSDK.framework */,
+				7B6FAF762B688D4000CD01CD /* SobotCall.bundle */,
+				7B6FAF772B688D4000CD01CD /* SobotCallLib.framework */,
+				7B6FAF782B688D4000CD01CD /* SobotCommon.framework */,
+				7B6FAF792B688D4000CD01CD /* SobotCommon.bundle */,
+				7B6FAF7A2B688D4000CD01CD /* SobotCallSDK.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		7B6FAF812B688E3F00CD01CD /* tmapi */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FAF822B688E3F00CD01CD /* ZCConfigTMDetailController.m */,
+				7B6FAF832B688E3F00CD01CD /* ZCGuideTMActionController.m */,
+				7B6FAF842B688E3F00CD01CD /* ZCConfigTMDetailController.h */,
+				7B6FAF852B688E3F00CD01CD /* ZCGuideTMActionController.h */,
+			);
+			path = tmapi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6FAEFD2B688C7D00CD01CD /* iOS_TMSDK_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6FAF172B688C7F00CD01CD /* Build configuration list for PBXNativeTarget "iOS_TMSDK_demo" */;
+			buildPhases = (
+				7B6FAEFA2B688C7D00CD01CD /* Sources */,
+				7B6FAEFB2B688C7D00CD01CD /* Frameworks */,
+				7B6FAEFC2B688C7D00CD01CD /* Resources */,
+				7B6FAF8A2B688E8000CD01CD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_TMSDK_demo;
+			productName = iOS_TMSDK_demo;
+			productReference = 7B6FAEFE2B688C7D00CD01CD /* iOS_TMSDK_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6FAEF62B688C7D00CD01CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7B6FAEFD2B688C7D00CD01CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7B6FAEF92B688C7D00CD01CD /* Build configuration list for PBXProject "iOS_TMSDK_demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6FAEF52B688C7D00CD01CD;
+			productRefGroup = 7B6FAEFF2B688C7D00CD01CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6FAEFD2B688C7D00CD01CD /* iOS_TMSDK_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6FAEFC2B688C7D00CD01CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FAF502B688CD100CD01CD /* root_menu2@2x.png in Resources */,
+				7B6FAF7C2B688D4100CD01CD /* SobotCall.bundle in Resources */,
+				7B6FAF512B688CD100CD01CD /* root_menu4@3x.png in Resources */,
+				7B6FAF112B688C7F00CD01CD /* LaunchScreen.storyboard in Resources */,
+				7B6FAF522B688CD100CD01CD /* root_menu4_nor@2x.png in Resources */,
+				7B6FAF572B688CD100CD01CD /* ZCIcon_look_moreBtn_nol@3x.png in Resources */,
+				7B6FAF562B688CD100CD01CD /* root_menu2_nor@3x.png in Resources */,
+				7B6FAF582B688CD100CD01CD /* ZCIcon_look_moreBtn_nol@2x.png in Resources */,
+				7B6FAF542B688CD100CD01CD /* root_menu4@2x.png in Resources */,
+				7B6FAF7F2B688D4300CD01CD /* SobotCommon.bundle in Resources */,
+				7B6FAF4F2B688CD100CD01CD /* root_menu2@3x.png in Resources */,
+				7B6FAF532B688CD100CD01CD /* root_menu4_nor@3x.png in Resources */,
+				7B6FAF0E2B688C7F00CD01CD /* Assets.xcassets in Resources */,
+				7B6FAF552B688CD100CD01CD /* root_menu2_nor@2x.png in Resources */,
+				7B6FAF0C2B688C7D00CD01CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6FAEFA2B688C7D00CD01CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FAF5B2B688CD100CD01CD /* SobotCallApiParameter.m in Sources */,
+				7B6FAF622B688CD100CD01CD /* ZCGuideActionController.m in Sources */,
+				7B6FAF5D2B688CD100CD01CD /* ZCConfigBaseCell.m in Sources */,
+				7B6FAF5C2B688CD100CD01CD /* ZCSectionPropertyCell.m in Sources */,
+				7B6FAF612B688CD100CD01CD /* EntityConvertUtils.m in Sources */,
+				7B6FAF092B688C7D00CD01CD /* ViewController.m in Sources */,
+				7B6FAF032B688C7D00CD01CD /* AppDelegate.m in Sources */,
+				7B6FAF142B688C7F00CD01CD /* main.m in Sources */,
+				7B6FAF862B688E3F00CD01CD /* ZCConfigTMDetailController.m in Sources */,
+				7B6FAF592B688CD100CD01CD /* ApiWebController.m in Sources */,
+				7B6FAF602B688CD100CD01CD /* ZCConfigDetailController.m in Sources */,
+				7B6FAF062B688C7D00CD01CD /* SceneDelegate.m in Sources */,
+				7B6FAF5F2B688CD100CD01CD /* OpenApiListController.m in Sources */,
+				7B6FAF662B688CD100CD01CD /* RootDemoController.m in Sources */,
+				7B6FAF872B688E3F00CD01CD /* ZCGuideTMActionController.m in Sources */,
+				7B6FAF5A2B688CD100CD01CD /* ZCGuideData.m in Sources */,
+				7B6FAF5E2B688CD100CD01CD /* ZCConfigCodeCell.m in Sources */,
+				7B6FAF652B688CD100CD01CD /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B6FAF0A2B688C7D00CD01CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6FAF0B2B688C7D00CD01CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B6FAF0F2B688C7F00CD01CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6FAF102B688C7F00CD01CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6FAF152B688C7F00CD01CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B6FAF162B688C7F00CD01CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6FAF182B688C7F00CD01CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo/Frameworks",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_TMSDK_demo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "访问麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sobot.calltmsdk.demo.iOS-TMSDK-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B6FAF192B688C7F00CD01CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94K26P27D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo/Frameworks",
+					"$(PROJECT_DIR)/iOS_TMSDK_demo/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_TMSDK_demo/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "访问麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sobot.calltmsdk.demo.iOS-TMSDK-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6FAEF92B688C7D00CD01CD /* Build configuration list for PBXProject "iOS_TMSDK_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FAF152B688C7F00CD01CD /* Debug */,
+				7B6FAF162B688C7F00CD01CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6FAF172B688C7F00CD01CD /* Build configuration list for PBXNativeTarget "iOS_TMSDK_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FAF182B688C7F00CD01CD /* Debug */,
+				7B6FAF192B688C7F00CD01CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6FAEF62B688C7D00CD01CD /* Project object */;
+}
